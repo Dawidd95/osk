@@ -1,0 +1,172 @@
+@import url("main.css");
+h2 {
+  color: black; }
+  @media screen and (max-width: 450px) {
+    h2 {
+      margin-bottom: 40px; } }
+  @media screen and (max-width: 395px) {
+    h2 {
+      text-align: left;
+      font-size: 30px; } }
+
+.main__navbar a[href="zaloguj.html"] {
+  border-bottom: 2.25px solid #cca876; }
+.main__navbar a[href="index.html"] {
+  border-bottom: 2.25px solid white; }
+  .main__navbar a[href="index.html"]:hover {
+    border-bottom: 2.25px solid #cca876; }
+
+.overlay-content {
+  display: none; }
+  @media screen and (max-width: 1199px) {
+    .overlay-content {
+      width: 100%;
+      height: 600px;
+      display: block; } }
+  .overlay-content a {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    padding-left: 30px;
+    color: #a0763c;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Lato"; }
+  .overlay-content a:first-child {
+    color: #a0763c;
+    background: white; }
+  .overlay-content a:nth-child(5) {
+    color: white;
+    background: #a0763c; }
+
+.login-container {
+  width: 90%;
+  height: 100%;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  margin-left: 50px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start; }
+  @media screen and (max-width: 500px) {
+    .login-container {
+      margin-left: 20px; } }
+  @media screen and (max-width: 1199px) {
+    .login-container {
+      margin-top: 40px; } }
+
+.form {
+  width: 100%;
+  height: 250px; }
+
+.form__user, .form__email {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "Raleway";
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; }
+
+.user__input, .email__input {
+  width: 50%;
+  height: 50px;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black; }
+  .user__input:focus, .email__input:focus {
+    outline: none;
+    border-bottom: 2px solid black; }
+  @media screen and (max-width: 800px) {
+    .user__input, .email__input {
+      width: 80%; } }
+  @media screen and (max-width: 500px) {
+    .user__input, .email__input {
+      width: 95%; } }
+
+.form__password {
+  width: 100%;
+  height: 40px;
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: "Raleway";
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.password__input {
+  width: 50%;
+  height: 50px;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black; }
+  .password__input:focus {
+    outline: none;
+    border-bottom: 2px solid black; }
+  @media screen and (max-width: 800px) {
+    .password__input {
+      width: 80%; } }
+  @media screen and (max-width: 500px) {
+    .password__input {
+      width: 95%; } }
+
+.login-button {
+  width: 150px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: transparent;
+  font-family: "Lato";
+  font-size: 20px;
+  transition: 0.5s;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media screen and (max-width: 899px) {
+    .login-button {
+      margin-top: 20px; } }
+  @media screen and (max-width: 440px) {
+    .login-button {
+      margin-top: 40px; } }
+  .login-button:hover {
+    color: white;
+    background-color: black;
+    transition: 0.5s; }
+
+.forgot-password {
+  width: 90%;
+  height: 300px;
+  margin-left: 50px; }
+  @media screen and (max-width: 500px) {
+    .forgot-password {
+      margin-left: 20px; } }
+
+.forgot-password__form {
+  width: 90%;
+  height: 130px; }
+
+.send-button--new-password {
+  width: 200px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: transparent;
+  font-family: "Lato";
+  font-size: 20px;
+  transition: 0.5s;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .send-button--new-password:hover {
+    color: white;
+    background-color: black;
+    transition: 0.5s; }
+
+/*# sourceMappingURL=zaloguj.css.map */
